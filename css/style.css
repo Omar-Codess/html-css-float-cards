@@ -14,17 +14,78 @@ html{
     width: 70%;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1{
     color: #e53170;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.titolo-paragrafo{
+h3{
+    color: white;
     text-align: center;
 }
 
-.card{
-    
+h4{
+    color: #1b8ad7;
+    text-align: center;
 }
 
+#mansione{
+    color: white;
+    text-align: center;
+}
+
+.titolo-paragrafo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    background-color: #0f0e17;
+    width: calc(100% / 3);
+    height: 80px;
+    float: left;
+    padding: 0.5em;
+}
+
+.primo{
+    background-image: url(../img/male1.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
+
+.secondo{
+    background-image: url(../img/female1.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
+
+.terzo{
+    background-image: url(../img/male2.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
+
+.quarto{
+    background-image: url(../img/female2.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
+
+.quinto{
+    background-image: url(../img/male3.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
+
+.sesto{
+    background-image: url(../img/female3.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% / 4);
+}
