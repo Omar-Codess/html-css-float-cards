@@ -1,0 +1,30 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1{
+    color: #e53170;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.titolo-paragrafo{
+    text-align: center;
+}
+
+.card{
+    
+}
+
